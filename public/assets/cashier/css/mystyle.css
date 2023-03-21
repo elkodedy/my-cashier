@@ -1,0 +1,148 @@
+/* body */
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* nav */
+.my-nav {
+    height: 9vh;
+    background-color: #2793c2;
+    margin-bottom: 1vh;
+    /* border: 1px black solid; */
+    /* #2793c2 */
+}
+
+/* hold */
+.maxwidth-18 {
+    max-width: 18vw;
+}
+
+#minwidth-18 {
+    min-width: 18vw;
+    transition: 0.2s;
+}
+
+.hover:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab-parent {
+    cursor: pointer;
+    background-color: rgb(233, 236, 239);
+    border: 0;
+    transition: 0.2s;
+}
+
+/* .trx-tab:hover {} */
+
+.trx-active {
+    background-color: rgb(255, 255, 255);
+    /* font-size: 1.05rem; */
+    transition: 0.2s;
+    /* min-width: 18vw; */
+}
+
+.add-tab {
+    max-width: 25px;
+}
+
+/* menu css */
+.menu::-webkit-scrollbar {
+    width: 12px;
+}
+
+.menu::-webkit-scrollbar-track {
+    background: white;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.055);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.cart-scrollbar::-webkit-scrollbar {
+    width: 12px;
+}
+
+.cart-scrollbar::-webkit-scrollbar-track {
+    background: white;
+}
+
+.cart-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.055);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.cart-scrollbar {
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+.menu,
+.cart {
+    height: 73vh;
+}
+
+.cart-list {
+    height: 52vh;
+}
+
+.product-item:hover,
+.category-item:hover {
+    background-color: rgb(218, 240, 255);
+}
+
+.menu-body {
+    overflow: auto;
+}
+
+/* modal */
+.modal-product-head {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636);
+}
+
+.btn-modal {
+    height: 60px;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.hide-list {
+    display: none;
+}
+
+/* pay modal */
+.pay-row {
+    margin-bottom: -0.5rem;
+}
+
+.pay-input {
+    height: calc(2rem + 2px);
+}
+
+.pay-input-total {
+    height: calc(4rem + 2px);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* cart */
+.vertical-center {
+    margin-top: 20px;
+}
+
+.cart-hover:hover {
+    background-color: rgb(218, 240, 255);
+}
+
+
+/*  */
